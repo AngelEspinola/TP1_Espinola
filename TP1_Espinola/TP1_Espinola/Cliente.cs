@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace TP1_Espinola
 {
-    class Cliente
+    public class Cliente : Empresa
     {
+        public int NumeroCliente { get; set; }
     }
 }

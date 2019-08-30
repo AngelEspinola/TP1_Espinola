@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace TP1_Espinola
 {
-    class Producto
+    public class Producto
     {
+        public int ID { get; set; }
+        public CodigoDescripcion Categoria { get; set; }// EJ: Vestimenta / Comestibles / Rodados / Inmuebles
+        public Cliente Propietario { get; set; }
+
     }
 }

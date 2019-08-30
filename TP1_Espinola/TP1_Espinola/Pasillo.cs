@@ -8,5 +8,8 @@ namespace TP1_Espinola
 {
     class Pasillo
     {
+        public string Lado { get; set; }
+        public List<Compartimiento> Compartimientos { get; set; }
+
     }
 }

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace TP1_Espinola
 {
-    class Proveedor
+    class Proveedor : Empresa   
     {
+        public int NumeroProveedor { get; set; }
+
     }
 }
